@@ -3,6 +3,8 @@
 [![Version](http://cocoapod-badges.herokuapp.com/v/MinimalPanelControls/badge.png)](http://cocoadocs.org/docsets/MinimalPanelControls)
 [![Platform](http://cocoapod-badges.herokuapp.com/p/MinimalPanelControls/badge.png)](http://cocoadocs.org/docsets/MinimalPanelControls)
 
+MinimalPanelControls is a library of controls for iOS, which are minimally designed. The controls are suitable for usage on a control panel type of user interface. They are particularly suited for audio related apps, where dialing settings on a sounds or preset is necessary.
+
 ## Usage
 
 To run the example project; clone the repo, and run `pod install` from the Example directory first.
