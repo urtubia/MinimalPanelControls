@@ -8,11 +8,11 @@ Pod::Spec.new do |s|
   s.name             = "MinimalPanelControls"
   s.version          = "0.1.0"
   s.summary          = "A set of controls with a minimal design style. Suitable for use on UI's that require a control panel type of interface."
-  s.homepage         = "http://bigrobotstudios.com/minimalpanelcontrols"
-  s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/urtubia/MinimalPanelControls"
+  #s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Hector Urtubia" => "hector@bigrobotstudios.com" }
-  s.source           = { :git => "http://EXAMPLE/NAME.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/urtubia/MinimalPanelControls.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/bigrobotstudios'
 
   s.platform     = :ios, '6.0'
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Classes'
-  s.resources = 'Assets/*.png'
+  #s.resources = 'Assets/*.png'
 
   s.ios.exclude_files = 'Classes/osx'
   s.osx.exclude_files = 'Classes/ios'
