@@ -6,10 +6,11 @@
 #
 Pod::Spec.new do |s|
   s.name             = "MinimalPanelControls"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A set of controls with a minimal design style. Suitable for use on UI's that require a control panel type of interface."
   s.homepage         = "https://github.com/urtubia/MinimalPanelControls"
   #s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.screenshots      = "https://raw.githubusercontent.com/urtubia/MinimalPanelControls/master/screenshot.png"
   s.license          = 'MIT'
   s.author           = { "Hector Urtubia" => "hector@bigrobotstudios.com" }
   s.source           = { :git => "https://github.com/urtubia/MinimalPanelControls.git", :tag => s.version.to_s }
