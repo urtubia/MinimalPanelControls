@@ -1,7 +1,5 @@
-pod "MinimalPanelControls", :path => "../"
+xcodeproj "MinimalPanelControlsExample/MinimalPanelControlsExample.xcodeproj"
 
-target "Demo" do
-end
-
-target "DemoTests" do
+target "MinimalPanelControlsExample" do
+    pod "MinimalPanelControls", :path => "../"
 end

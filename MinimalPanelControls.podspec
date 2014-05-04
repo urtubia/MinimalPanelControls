@@ -7,21 +7,15 @@
 Pod::Spec.new do |s|
   s.name             = "MinimalPanelControls"
   s.version          = "0.1.0"
-  s.summary          = "A short description of MinimalPanelControls."
-  s.description      = <<-DESC
-                       An optional longer description of MinimalPanelControls
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "http://EXAMPLE/NAME"
+  s.summary          = "A set of controls with a minimal design style. Suitable for use on UI's that require a control panel type of interface."
+  s.homepage         = "http://bigrobotstudios.com/minimalpanelcontrols"
   s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Hector Urtubia" => "urtubia@bigrobotstudios.com" }
+  s.author           = { "Hector Urtubia" => "hector@bigrobotstudios.com" }
   s.source           = { :git => "http://EXAMPLE/NAME.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/EXAMPLE'
+  s.social_media_url = 'https://twitter.com/bigrobotstudios'
 
-  # s.platform     = :ios, '5.0'
+  s.platform     = :ios, '6.0'
   # s.ios.deployment_target = '5.0'
   # s.osx.deployment_target = '10.7'
   s.requires_arc = true
