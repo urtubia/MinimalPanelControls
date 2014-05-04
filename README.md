@@ -5,7 +5,7 @@
 
 ![](https://raw.githubusercontent.com/urtubia/MinimalPanelControls/master/Example/iosdemo-minimalpanelcontrols.gif)
 
-MinimalPanelControls is a library of controls for iOS, which are minimally designed. The controls are suitable for usage on a control panel type of user interface. They are particularly suited for audio related apps, where dialing settings on a sounds or preset is necessary.
+MinimalPanelControls is a library of controls for iOS, which are minimally designed. The controls are suitable for usage on a control panel type of user interface. They are particularly suited for audio related apps, where dialing settings on a sound or preset is necessary.
 
 They were used to build http://www.roboticdrums.com
 
