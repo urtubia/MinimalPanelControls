@@ -39,6 +39,7 @@
     BRSMinimalKnob *knob2 = [[BRSMinimalKnob alloc] initWithFrame:CGRectMake(40, 220, 60, 60)];
     knob2.knobBackgroundColor = [UIColor orangeColor];
     knob2.knobFillColor = [UIColor  blueColor];
+    knob2.knobCenterColor = [UIColor darkGrayColor];
     [self.view addSubview:knob2];
 
     BRSMinimalVSlider *slider1 = [[BRSMinimalVSlider alloc] initWithFrame:CGRectMake(180, 80, 30, 230)];

@@ -7,5 +7,6 @@
 @property (nonatomic) UIColor *knobBackgroundColor;
 @property (nonatomic) UIColor *backgroundColor;
 @property (nonatomic) UIColor *knobFillColor;
+@property (nonatomic) UIColor *knobCenterColor;
 
 @end

@@ -14,6 +14,7 @@
         _backgroundColor = [UIColor whiteColor];
         _knobBackgroundColor = [UIColor lightGrayColor];
         _knobFillColor = [UIColor darkGrayColor];
+        _knobCenterColor = _backgroundColor;
         _value = 0.5;
     }
     return self;
@@ -52,7 +53,7 @@
 	CGContextClosePath(context);
 	CGContextFillPath(context);
     
-    CGContextSetFillColorWithColor(context, self.backgroundColor.CGColor);
+    CGContextSetFillColorWithColor(context, self.knobCenterColor.CGColor);
     CGContextBeginPath(context);
     CGContextAddArc(context, knobRectCenterX, knobRectCenterY, knobRect.size.width / 3.2, 0, 2 * M_PI, 0);
     CGContextClosePath(context);
